@@ -50,18 +50,18 @@ li{
     padding: 5px;
 }
   /* Hint: What can you do with a media query and flexbox? */
-  @media (max-width: 1250px) {
+  @media (max-width: 1100px) {
     
     .pricing-container{
         margin: 50px 0px;
         flex-direction: column;
         height: 100vh;
         
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
     }
     .pricing-plan{
-        
-         max-height: 200px;
+        min-width: 230px;
+        max-height: 300px;
     }
 }
